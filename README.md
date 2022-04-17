@@ -36,7 +36,7 @@ To use this repo, go to the cloned files, then type `npm start` in your command-
 
 ## Contribution
 
-To contribute to this project, fork the repo, make some edits in a new branch, then submit a PR. It’ll be merged to our main branch upon testing and approval.
+To contribute to this project, fork the repo, make some edits in a new branch, then submit a PR. It’ll be merged to the main branch upon testing and approval.
 
 ## Questions
 If you have questions, please feel free to reach out to Sean Mckeag at mckeags7@gmail.com.
