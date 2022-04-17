@@ -12,10 +12,11 @@ Module 20 challenge - An updated portfolio showcasing my full stack dev projects
 
 ### Live Site
 
+https://mckeags7.github.io/SeanMReactPortfolio/#about
 
 ### Preview 
 
-![Preview]()
+![myReactPortfolio](https://user-images.githubusercontent.com/93490277/163726386-a04d2e38-9221-4820-a418-48b14ba4a97d.png)
 
 
 ### Tech Used
@@ -27,7 +28,7 @@ Dependencies:
 
 ## Installation 
 
-To install this project into your own, use `git clone <REPONAME>` in your command-line, then `npm init` to install the listed dependencies.
+To install this project into your own, use `git clone <REPONAME>` in your command-line, then `npm i` to install the listed dependencies.
 
 ## Usage 
 
