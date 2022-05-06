@@ -34,8 +34,18 @@ const projects = [
     live: "https://damp-crag-63651.herokuapp.com/",
     repo: "https://github.com/mckeags7/Recipe-Repo-",
   },
-  {
+    {
     id: 3,
+    title: "Husky-Hangout - A group-written, events networking application for UCONN students by Zach Steuer, James Mahoney, Shelley Soucie, Nasser Nasser, and Sean Mckeag",
+    languages: "MERN, GraphQL, html, css, js,",
+    packages: "Express.js, Node.js, Generate Unique IDs",
+    image: "/img/Huskyhangout.png",
+    description: "An application inteded for incoming and new students to UCONN to help them find the best places to meet new friends on campus.",
+    repo: "https://github.com/mckeags7/husky-hangout",
+    live: "https://husky-hangout.herokuapp.com/",
+  },
+  {
+    id: 4,
     title: "Verbal Diary - A Note Taking Application",
     languages: "html, css, js,",
     packages: "Express.js, Generate Unique IDs",
@@ -45,7 +55,7 @@ const projects = [
     live: "https://verbal-diary-heroku.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Workday Scheduler",
     languages: "html, css, js",
     image: "/img/workdayScheduler.png",
@@ -55,7 +65,7 @@ const projects = [
     live: "https://mckeags7.github.io/WorkdayScheduler/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather Dashboard Application",
     languages: "html, css, js",
     packages: "none",
@@ -65,7 +75,7 @@ const projects = [
     live: "https://mckeags7.github.io/weatherapp/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Basic Portfolio",
     languages: "html, css",
     packages: "none",
