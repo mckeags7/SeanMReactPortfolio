@@ -26,7 +26,7 @@ function Resume() {
         <ul>
             <li>HTML, css, Javascript</li>
             <li>React, MERN, SQL, NoSQL</li>
-            <li>Markdown, Git</li>
+            <li> Git</li>
         </ul>
       </div>
     </div>
