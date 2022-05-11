@@ -89,7 +89,7 @@ const projects = [
 function Portfolio() {
   return (
     <div>
-      <p className="content is-small">Portfolio</p>
+      <p className="content is-small" height='300px' width='200px'>Portfolio</p>
       <hr />
 
       <Project projects={projects} />
