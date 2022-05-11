@@ -11,7 +11,7 @@ function Resume() {
 
         <a
           className="button is-primary"
-          href={process.env.PUBLIC_URL + "../seanMckeagResume2022.pdf" } download
+          href={process.env.PUBLIC_URL + "" } download
           target="_blank" rel="noreferrer"
         >
           <span className="icon">
