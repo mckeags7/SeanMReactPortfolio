@@ -1,70 +1,34 @@
-/* eslint-disable react/jsx-no-undef */
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "../../public/img/Sean Mckeag Resume - (May, 2022).pdf"
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-const resumeLink = "C:/Users/18608/Documents/GitHub/SeanMReactPortfolio/public/img/Sean Mckeag Resume - (May, 2022).pdf"
+import React from "react";
 
-function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
+function Resume() {
   return (
-    <div>
-      <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+    <div className="columns">
+      <div className="column">
+        <p className="content is-medium">Résumé</p>
+        <hr />
 
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-      </Container>
-    </div>
-  );
-}
-
-
-
+        <a
+          className="button is-primary"
+          href={process.env.PUBLIC_URL + "/public/img/Sean Mckeag Resume - (May, 2022).pdf"}
+          target="_blank" rel="noreferrer"
+        >
+          <span className="icon">
+            <i className="fas fa-download"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+      </div>
       <div className="column">
         <p className="content is-medium">Skills</p>
         <hr />
         <ul>
             <li>HTML, css, Javascript</li>
             <li>React, MERN, SQL, NoSQL</li>
-            <li> Git</li>
+            <li>Git</li>
         </ul>
       </div>
+    </div>
+  );
+}
 
-export default ResumeNew;
+export default Resume;
